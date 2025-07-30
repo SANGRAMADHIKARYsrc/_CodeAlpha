@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Music Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background-animation"></div>
+  <div class="container">
+    <h1>🎵 AI Music Generator</h1>
+
+    <textarea id="prompt" placeholder="Describe your music prompt (e.g., calm piano, fast jazz)..."></textarea>
+    
+    <button id="generate">Generate Music</button>
+    <button id="listen" disabled>🎧 Listen</button>
+    <button id="download" disabled>⬇️ Download</button>
+    
+    <p id="status">Enter a prompt and click Generate.</p>
+    <audio id="audioPlayer" controls style="display: none;"></audio>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
